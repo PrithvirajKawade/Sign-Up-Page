@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="norseFont" href="Norse-Bold.otf">
+</head>
+
+<body>
+    <div class="img">
+        <div class="logo">
+            <img src="logo.png" alt="odin logo" id="logo">
+            <p>ODIN</p>
+        </div>
+        <div class="img-description">
+            <p>Photo by : Halie West</p>
+            <a href="https://unsplash.com/photos/25xggax4bSA">
+                <p class="img-info">https://unsplash.com/photos/25xggax4bSA</p>
+            </a>
+        </div>
+    </div>
+    <div class="form">
+        <div class="main-description">
+            <div class="description">
+                This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams. Sign up now to get started.
+            </div>
+            <div class="description">
+                You know you want to.
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="" method="get">
+                <div class="form-group">
+                    <label for="first">FIRST NAME</label>
+                    <input type="text" id="first" minlength="3" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label for="last">LAST NAME</label>
+                    <input type="text" id="last" minlength="3" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label for="email">*EMAIL</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" id="phone-number" min="9" max="10">
+                </div>
+                <div class="form-group">
+                    <label for="password">*PASSWORD</label>
+                    <input type="password" id="password" minlength="3" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">*CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password" minlength="3" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label for="submit"></label>
+                    <button id="submit">CREATE ACCOUNT</button>
+                    <!-- <input type="submit" value="CREATE ACCOUNT" id="submit"> -->
+                </div>
+            </form>
+            <div class="log-in">
+                <p>Already Have an account?</p>
+                <a href="">Log In</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
